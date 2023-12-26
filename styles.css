@@ -1,11 +1,12 @@
 body{
     display:flex;
     flex-direction: column;
-    background-color:#BDB5D5;
+    background-color:#7C96AB;
     justify-content: center;
     align-items: center;
-    margin-bottom: 1cm;
+    margin: 0;
     gap: 0.9cm;
+    padding: 0.6cm;
 }
 .imagine{
     height: 6cm;
@@ -13,28 +14,28 @@ body{
 }
 .poze{
     justify-content: space-between;
-    gap: 4.5cm;
+    gap: 1cm;
     align-items: center;
 
 
 }
 .main{
     border-style: solid;
-    width: 95%;
+    width: 97%;
     margin: 0.5cm;
 
 align-items: center;
   display: flex;
   flex-direction: column;
+
   height: 15cm;
-  padding: 0.1cm;
  
   
 }
 .links{
     display: flex;
     justify-content:space-between;
-    align-self: center;
+    align-self:first baseline;
     gap: 6cm;
     
 }
@@ -55,7 +56,7 @@ h1 h4{
 .link{
     align-items:center;
     justify-self: center;
-    height: 15cm;
+    height: 2cm;
     display: flex;
     
 }
@@ -67,7 +68,7 @@ ul.links {
   }
 a{
   text-decoration: none;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'DM Serif Display', serif;
   font-size: 22px;
   color: #7D0A0A;
   font-weight: 600;
@@ -86,9 +87,9 @@ a{
    height: 0.05cm;
   }
   .jos{
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
-    gap: 0.9cm;
+    gap: 1cm;
     display: flex;
   }
